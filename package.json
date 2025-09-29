@@ -1,0 +1,26 @@
+{
+  "name": "54213881-ivanov-mikhail",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "start:dev": "ts-node src/index.ts",
+    "start:prod": "node dist/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^24.5.2",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "@fastify/jwt": "^10.0.0",
+    "bcrypt": "^6.0.0",
+    "drizzle-kit": "^0.31.5",
+    "drizzle-orm": "0.36.1",
+    "fastify": "^5.6.1",
+    "jsonwebtoken": "^9.0.2",
+    "postgres": "^3.4.7"
+  }
+}
